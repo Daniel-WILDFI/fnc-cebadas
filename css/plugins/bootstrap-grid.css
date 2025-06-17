@@ -97,7 +97,7 @@
     .container-lg,
     .container-md,
     .container-sm {
-        --bs-gutter-x: 15px;
+        --bs-gutter-x: 0px;
         --bs-gutter-y: 0;
         padding-right: var(--bs-gutter-x);
         padding-left: var(--bs-gutter-x);
@@ -153,7 +153,7 @@
     .container-md,
     .container-sm,
     .container {
-        max-width: 1300px;
+        max-width: 1115px;
     }
 }
 

@@ -522,7 +522,7 @@ a {
 }
 @media (max-width: 768px) {
   .mil-display1 {
-    font-size: calc(1rem + 14.5vw);
+    font-size: calc(0.5rem + 7.5vw);
   }
 }
 
@@ -557,7 +557,7 @@ a {
 }
 @media (min-width: 1920px) {
   .mil-display3 {
-    font-size: calc(1rem + 2.8vw);
+    font-size: calc(3rem + 2.8vw);
   }
 }
 @media (max-width: 1200px) {
@@ -2463,7 +2463,7 @@ preloader
   z-index: 9;
   opacity: 1 !important;
   height: 100%;
-  background-color: #FEAF62;
+  background-color: #fff;
 }
 .mil-preloader .mil-preloader-animation .mil-pos-abs .mil-reveal-frame p {
   -webkit-filter: blur(0px);
@@ -2653,6 +2653,11 @@ top panel
     margin-bottom: 0;
     margin-right: 10px;
   }
+
+    .mil-top-panel .mil-logo {
+    width: 75%;
+  }
+
   .mil-top-panel .mil-buttons-tp-frame {
     padding: 0;
     background-color: #353639;
@@ -2663,6 +2668,7 @@ top panel
     margin: 0;
     width: 50px;
   }
+
 }
 
 .mil-top-panel-2 {
