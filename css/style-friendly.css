@@ -90,6 +90,7 @@ body {
   font-weight: 300;
   font-size: 14px;
   background-color: #ECECEA;
+  background: no-repeat url("");
 }
 
 .mil-page-wrapper {
@@ -2662,11 +2663,11 @@ top panel
     padding: 0;
     background-color: #353639;
     border-radius: 70px;
-    padding: 0 15px;
+    padding: 0 0;
   }
   .mil-top-panel .mil-buttons-tp-frame .mil-buttons .mil-tp-btn {
     margin: 0;
-    width: 50px;
+    width: 65px;
   }
 
 }
@@ -3481,7 +3482,7 @@ counters
   margin-left: -30px;
 }
 .mil-counter-item h4 {
-  font-size: 120px;
+  font-size: 100px;
   line-height: 100%;
 }
 .mil-counter-item .mil-counter-text {
