@@ -3546,9 +3546,10 @@ half container
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 2;
-  width: 50%;
+  width: 100%;
   padding-right: 10%;
 }
+/*
 .mil-half-container .mil-text-box:before {
   content: "";
   width: 50vw;
@@ -3557,7 +3558,7 @@ half container
   position: absolute;
   top: 0;
   right: 0;
-}
+}*/
 .mil-half-container .mil-text-box.mil-g-m1:before {
   background: linear-gradient(308.26deg, #fff 0%, #717171 100%);
 }
