@@ -636,15 +636,23 @@ a {
     font-size: calc(1rem + 9vw);
   }
 }
-
+.mil-head0 {
+    font-size: 3rem !important;
+  }
+  
 .mil-head1 {
   font-size: 56px;
   line-height: 120%;
 }
 @media (max-width: 768px) {
+  .mil-head0 {
+    font-size: 3rem !important;
+  }
+  
   .mil-head1 {
     font-size: 5rem !important;
   }
+
 }
 
 .mil-head2 {
