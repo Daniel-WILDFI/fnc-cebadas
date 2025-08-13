@@ -393,17 +393,22 @@ settings
 typography
 
 ------------------------------------------- */
+@font-face {
+  font-family: 'RuinaOne-Black';
+  src: url(plugins/font-awesome/RuinaOne-Black.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+
 h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 .mil-h1,
 .mil-h2,
 .mil-h3,
 .mil-h4,
-.mil-h5,
 .mil-h6 {
   font-family: "Anton", sans-serif;
   color: #353639;
@@ -413,6 +418,19 @@ h6,
   color: #353639;
   letter-spacing: -2%;
 }
+h5,
+.mil-h5 {
+    font-family: "RuinaOne-Black", sans-serif;
+    color: #002263;
+    font-weight: 100;
+    line-height: 86% !important;
+    text-transform: uppercase;
+    color: #002263;
+    letter-spacing: -2%;
+    font-size: 12rem !important;
+    text-align: left !important;
+}
+
 
 b {
   font-weight: 100;
@@ -603,7 +621,7 @@ a {
 
 @media (max-width: 1200px) {
   .mil-scale-img {
-    transform: translate3d(-715px, -315px, 0px) scale(0.30) !important;
+    transform: translate3d(-315px, 0px) scale(0.30) !important;
   }
 }
 @media (max-width: 992px) {
@@ -3561,8 +3579,7 @@ half container
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 2;
-  width: 100%;
-  padding-right: 10%;
+  width: 100%;+
 }
 /*
 .mil-half-container .mil-text-box:before {
