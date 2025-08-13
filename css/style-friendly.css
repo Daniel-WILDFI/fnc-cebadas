@@ -621,12 +621,14 @@ a {
 
 @media (max-width: 1200px) {
   .mil-scale-img {
-    transform: translate3d(-315px, 0px) scale(0.30) !important;
+    transform: translate3d(-358px, -90px, 0px) scale(0.75, 0.75) !important;
+    object-fit: contain;
   }
 }
 @media (max-width: 992px) {
   .mil-scale-img {
     font-size: calc(1rem + 8vw);
+    transform: translate3d(0px, 0px, 0px) scale(1.1624, 1.1624)!important;
   }
 }
 @media (max-width: 768px) {
@@ -641,7 +643,7 @@ a {
 }
 @media (max-width: 768px) {
   .mil-head1 {
-    font-size: 42px;
+    font-size: 5rem !important;
   }
 }
 
@@ -3579,7 +3581,9 @@ half container
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 2;
-  width: 100%;+
+  width: 100%;
+          align-items: center;
+        text-align: center;
 }
 /*
 .mil-half-container .mil-text-box:before {
