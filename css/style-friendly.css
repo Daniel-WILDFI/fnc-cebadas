@@ -4780,8 +4780,10 @@ portfolio
   padding-bottom: 100%;
 }
 .mil-project-img.mil-port {
-  padding-bottom: 100%;
+  padding-bottom: 20%;
 }
+
+
 .mil-project-img.mil-land {
   padding-bottom: 0%;
 }
