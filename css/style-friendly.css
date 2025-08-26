@@ -404,12 +404,10 @@ h1,
 h2,
 h3,
 h4,
-h6,
 .mil-h1,
 .mil-h2,
 .mil-h3,
-.mil-h4,
-.mil-h6 {
+.mil-h4 {
   font-family: "Anton", sans-serif;
   color: #353639;
   font-weight: 100;
@@ -418,6 +416,20 @@ h6,
   color: #353639;
   letter-spacing: -2%;
 }
+
+h6,
+.mil-h6 {
+ font-family: "RuinaOne-Black", sans-serif;
+    color: #002263;
+    font-weight: 100;
+    line-height: 86% !important;
+    text-transform: uppercase;
+    color: #002263;
+    letter-spacing: -2%;
+    font-size: 5rem !important;
+    text-align: left !important;
+}
+
 h5,
 .mil-h5 {
     font-family: "RuinaOne-Black", sans-serif;
@@ -429,6 +441,7 @@ h5,
     letter-spacing: -2%;
     font-size: 10rem !important;
     text-align: left !important;
+
 }
 
 
@@ -505,7 +518,7 @@ a {
 }
 
 .mil-text-md {
-  font-size: 16px;
+  font-size: 26px;
   line-height: 160%;
 }
 
@@ -3956,7 +3969,7 @@ team
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(55, 204, 141, 0.7);
+  background-color: rgba(55 135 204 / 18%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5031,16 +5044,7 @@ footer
 .mil-footer {
   position: relative;
 }
-.mil-footer:before {
-  content: "";
-  height: 40vh;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 236, 234, 0)), color-stop(80%, rgba(216, 216, 216, 0.5)));
-  background: linear-gradient(180deg, rgba(236, 236, 234, 0) 0%, rgba(216, 216, 216, 0.5) 80%);
-}
+
 
 .mil-footer-contact {
   display: -webkit-box;
