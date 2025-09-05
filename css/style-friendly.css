@@ -427,7 +427,7 @@ h6,
     color: #002263;
     letter-spacing: -2%;
     font-size: 5rem !important;
-    text-align: left !important;
+    text-align: center !important;
 }
 
 h5,
@@ -440,7 +440,7 @@ h5,
     color: #002263;
     letter-spacing: -2%;
     font-size: 10rem !important;
-    text-align: left !important;
+    text-align: center !important;
 
 }
 
@@ -523,7 +523,7 @@ a {
 }
 
 .mil-text-sm {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 160%;
 }
 
@@ -2520,7 +2520,7 @@ preloader
   z-index: 9;
   opacity: 1 !important;
   height: 100%;
-  background-color: #fff;
+  background-color: #eaeaea;
 }
 .mil-preloader .mil-preloader-animation .mil-pos-abs .mil-reveal-frame p {
   -webkit-filter: blur(0px);
@@ -2551,7 +2551,7 @@ top panel
 .mil-top-panel {
   padding: 0 60px;
   position: fixed;
-  z-index: 9999999;
+  z-index: 1;
   top: 0;
   lfeft: 0;
   width: 100%;
@@ -3605,6 +3605,23 @@ half container
   width: 100%;
           align-items: center;
         text-align: center;
+}
+
+.mil-half-container2 .mil-text-box2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: right;
+  z-index: 2;
+  width: 100%;
+         
 }
 /*
 .mil-half-container .mil-text-box:before {
