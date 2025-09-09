@@ -512,13 +512,13 @@ a {
 }
 
 .mil-text-lg {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 160%;
 }
 
 .mil-text-md {
-  font-size: 26px;
-  line-height: 160%;
+  font-size: 20px;
+  line-height: 120%;
 }
 
 .mil-text-sm {
