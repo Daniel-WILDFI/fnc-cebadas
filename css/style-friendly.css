@@ -1659,7 +1659,7 @@ hero 1
 }
 @media (max-height: 800px) {
   .mil-hero-1 .mil-hero-main {
-    height: auto;
+    height: 670px;
   }
 }
 
