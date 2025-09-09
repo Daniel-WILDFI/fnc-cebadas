@@ -101,7 +101,7 @@
         --bs-gutter-y: 0;
         padding-right: var(--bs-gutter-x);
         padding-left: var(--bs-gutter-x);
-        width: 90%;
+        width: 85%;
         margin-right: auto;
         margin-left: auto;
     }
