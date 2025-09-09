@@ -840,17 +840,17 @@
                                             <form id="contact-form" action="mailto:cebadas@sellin.uy" method="post" enctype="text/plain">
                                                 <div class="row mil-aic">
                                                     <div class="col-md-6 mil-mb30 mil-up">
-                                                        <input type="text" placeholder="Nombre">
+                                                        <input type="text" id="name" type="text" placeholder="Nombre" required>
                                                     </div>
                                                     <div class="col-md-6 mil-mb30 mil-up">
-                                                        <input type="text" placeholder="Email">
+                                                        <input type="email" id="email" type="text" placeholder="Email" required>
                                                     </div>
                                                     <div class="col-md-12 mil-mb30 mil-up">
-                                                        <textarea placeholder="Cuéntanos sobre tu proyecto"></textarea>
+                                                        <textarea id="message" name="message" rows="5" placeholder="Cuéntanos sobre tu proyecto" required ></textarea>
                                                     </div>
                                                     <div
                                                         class="col-md-12 mil-mb30 mil-768-mb0 mil-jce mil-768-jcc mil-up">
-                                                        <button class="mil-btn mil-a2 mil-c-gone">Enviar</button>
+                                                        <button typw="submit" class="mil-btn mil-a2 mil-c-gone">Enviar</button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -897,10 +897,10 @@
     <script src="js/plugins/swiper.min.js"></script>
     <!-- parallax js -->
     <script src="js/plugins/parallax.js"></script>
-
     <!-- pixy js -->
     <script src="js/main.js"></script>
-
+    <!-- pixy js -->
+    <script src="js/script.js"></script>
     <!-- video js -->
     <script src="js/video.js"></script>
 
